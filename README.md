@@ -5,6 +5,12 @@ This small library is for getting results from a job back onto the main thread o
  - Using a single allocated `Result<T>` that is conceptually a wrapper around a `NativeArray<T>` with a length of 1.
  
  - Using a smart `Result<T,Op>` that allows multiple jobs to collectively create a result in parallel.  For example, a `Result<int,Sum>` would allow an IJobParallelFor to add up a bunch of numbers in parallel.
+
+## Install ##
+
+```
+https://github.com/ryunkmr/NativeResult.git?path=Packages/NativeResult/
+```
  
 ## `Result<T>` ##
 
